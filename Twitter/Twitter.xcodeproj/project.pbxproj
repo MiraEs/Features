@@ -12,6 +12,7 @@
 		E3B8DEA01F115E400050D304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B8DE9E1F115E400050D304 /* Main.storyboard */; };
 		E3B8DEA21F115E400050D304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B8DEA11F115E400050D304 /* Assets.xcassets */; };
 		E3B8DEA51F115E400050D304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B8DEA31F115E400050D304 /* LaunchScreen.storyboard */; };
+		E3B8DEAD1F116A480050D304 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B8DEAC1F116A480050D304 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E3B8DEA11F115E400050D304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B8DEA41F115E400050D304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B8DEA61F115E400050D304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B8DEAC1F116A480050D304 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		E3B8DE8E1F115E400050D304 = {
 			isa = PBXGroup;
 			children = (
+				E3B8DEAC1F116A480050D304 /* HomeController.swift */,
 				E3B8DE991F115E400050D304 /* Twitter */,
 				E3B8DE981F115E400050D304 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				E3B8DE9D1F115E400050D304 /* ViewController.swift in Sources */,
 				E3B8DE9B1F115E400050D304 /* AppDelegate.swift in Sources */,
+				E3B8DEAD1F116A480050D304 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				E3B8DEAB1F115E400050D304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
